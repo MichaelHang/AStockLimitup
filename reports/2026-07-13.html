@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026年7月13日 A股涨停股板块分布（剔除ST与退市股）</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>🔥 A股涨停股板块分布</h1>
+  <div class="date">2026年7月13日（周一） · 口径：剔除 ST 股与退市股</div>
+  <div class="stats">
+    <div class="stat-box primary"><div class="num">27</div><div class="label">涨停数</div></div>
+    <div class="stat-box secondary"><div class="num">18 首板 / 9 连板</div><div class="label">首板 vs 连板（最高 3 连板）</div></div>
+    <div class="stat-box secondary"><div class="num">13</div><div class="label">涉及申万一级行业</div></div>
+    <div class="stat-box secondary"><div class="num">67.5%</div><div class="label">封板率</div></div>
+  </div>
+</div>
+
+<div class="market-summary">
+  <strong>大盘概况：</strong>
+  沪指跌<span class="green">2.06%</span>，深成指跌<span class="green">3.48%</span>，创业板指跌<span class="green">3.10%</span>，科创50跌<span class="green">3.42%</span>。
+  沪深京三市成交额约 <span class="green">2.83 万亿</span>，较前一交易日缩量约 5760 亿（-16.9%）。全市场约 801 只个股上涨、4683 只下跌，涨停 32 只（含 ST / 退市 / 北交所）、跌停 176 只。
+  <span class="red">中药、医药（中医药振兴规划）、燃气（氦气出口管制）、银行等防御 / 政策板块逆势走强</span>；存储芯片、商业航天、半导体、人形机器人等科技成长方向大幅下挫。
+  市场连板高度降至 3 板（亚联机械、立方制药、贵绳股份），连板梯队大幅萎缩、晋级率极低。
+</div></div>
+
+<div class="concentration">
+  <h2>涨停股行业集中度（申万一级，13 个行业，共 27 只）</h2>
+  <div class="conc-row"><span class="conc-name">医药生物</span><div class="conc-track"><div class="conc-fill" style="width:100%"></div></div><span class="conc-num">7</span></div>
+  <div class="conc-row"><span class="conc-name">基础化工</span><div class="conc-track"><div class="conc-fill" style="width:57%"></div></div><span class="conc-num">4</span></div>
+  <div class="conc-row"><span class="conc-name">机械设备</span><div class="conc-track"><div class="conc-fill" style="width:57%"></div></div><span class="conc-num">4</span></div>
+  <div class="conc-row"><span class="conc-name">公用事业</span><div class="conc-track"><div class="conc-fill" style="width:29%"></div></div><span class="conc-num">2</span></div>
+  <div class="conc-row"><span class="conc-name">建筑装饰</span><div class="conc-track"><div class="conc-fill" style="width:29%"></div></div><span class="conc-num">2</span></div>
+  <div class="conc-row"><span class="conc-name">电子</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
+  <div class="conc-row"><span class="conc-name">农林牧渔</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
+  <div class="conc-row"><span class="conc-name">综合</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
+  <div class="conc-row"><span class="conc-name">有色金属</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
+  <div class="conc-row"><span class="conc-name">家用电器</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
+  <div class="conc-row"><span class="conc-name">计算机</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
+  <div class="conc-row"><span class="conc-name">电力设备</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
+  <div class="conc-row"><span class="conc-name">轻工制造</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
+</div></div>
+
+<div class="removed-note">
+  🚫 <strong>已剔除的 2 只退市股：</strong>国华退（000004）、云创退（920305）（处于退市整理，不计入涨停主数字 27）。全市场涨停约 32 只（含 ST / 退市 / 北交所），跌停 176 只。
+</div></div>
+
+<div class="section-title">涨停股分板块清单</div>
+
+<div class="filter-bar">
+  <div class="filter-buttons" id="filterButtons">
+      <button class="filter-btn active" data-industry="">全部</button>
+      <button class="filter-btn" data-industry="制造">制造</button>
+      <button class="filter-btn" data-industry="医药">医药</button>
+      <button class="filter-btn" data-industry="TMT">TMT</button>
+      <button class="filter-btn" data-industry="周期">周期</button>
+      <button class="filter-btn" data-industry="基建地产">基建地产</button>
+      <button class="filter-btn" data-industry="消费">消费</button>
+      <button class="filter-btn" data-industry="公用">公用</button>
+  </div>
+  <input type="search" id="searchBox" class="search-box" placeholder="搜索名称 / 代码 / 行业 / 大类…">
+</div>
+
+<div class="table-count" id="tableCount">显示 27 / 27</div>
+
+<table class="stock-table" id="stockTable">
+  <thead>
+    <tr><th>名称</th><th>代码</th><th>行业</th><th>大类</th><th class="sortable" data-key="pct">涨幅<span class="sort-ind"></span></th><th class="sortable" data-key="board">连板<span class="sort-ind"></span></th></tr>
+  </thead>
+  <tbody>
+      <tr data-industry="周期" data-search="日科化学 300214 基础化工 周期" data-pct="20.00" data-board="1">
+        <td class="c-name">日科化学</td>
+        <td class="c-code">300214</td>
+        <td class="c-industry">基础化工</td><td class="c-category">周期</td>
+        <td class="c-change">+20.00%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="制造" data-search="贵绳股份 600992 机械设备 制造" data-pct="10.05" data-board="3">
+        <td class="c-name">贵绳股份</td>
+        <td class="c-code">600992</td>
+        <td class="c-industry">机械设备</td><td class="c-category">制造</td>
+        <td class="c-change">+10.05%</td>
+        <td class="c-board">3连板</td>
+      </tr>
+      <tr data-industry="制造" data-search="中信重工 601608 机械设备 制造" data-pct="9.92" data-board="2">
+        <td class="c-name">中信重工</td>
+        <td class="c-code">601608</td>
+        <td class="c-industry">机械设备</td><td class="c-category">制造</td>
+        <td class="c-change">+9.92%</td>
+        <td class="c-board">2连板</td>
+      </tr>
+      <tr data-industry="公用" data-search="水发燃气 603318 公用事业 公用" data-pct="10.04" data-board="1">
+        <td class="c-name">水发燃气</td>
+        <td class="c-code">603318</td>
+        <td class="c-industry">公用事业</td><td class="c-category">公用</td>
+        <td class="c-change">+10.04%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="公用" data-search="九丰能源 605090 公用事业 公用" data-pct="10.01" data-board="2">
+        <td class="c-name">九丰能源</td>
+        <td class="c-code">605090</td>
+        <td class="c-industry">公用事业</td><td class="c-category">公用</td>
+        <td class="c-change">+10.01%</td>
+        <td class="c-board">2连板</td>
+      </tr>
+      <tr data-industry="医药" data-search="立方制药 003020 医药生物 医药" data-pct="9.98" data-board="3">
+        <td class="c-name">立方制药</td>
+        <td class="c-code">003020</td>
+        <td class="c-industry">医药生物</td><td class="c-category">医药</td>
+        <td class="c-change">+9.98%</td>
+        <td class="c-board">3连板</td>
+      </tr>
+      <tr data-industry="制造" data-search="晋亿实业 601002 机械设备 制造" data-pct="9.98" data-board="1">
+        <td class="c-name">晋亿实业</td>
+        <td class="c-code">601002</td>
+        <td class="c-industry">机械设备</td><td class="c-category">制造</td>
+        <td class="c-change">+9.98%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="TMT" data-search="睿能科技 603933 电子 TMT" data-pct="10.02" data-board="1">
+        <td class="c-name">睿能科技</td>
+        <td class="c-code">603933</td>
+        <td class="c-industry">电子</td><td class="c-category">TMT</td>
+        <td class="c-change">+10.02%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="医药" data-search="哈药股份 600664 医药生物 医药" data-pct="10.09" data-board="2">
+        <td class="c-name">哈药股份</td>
+        <td class="c-code">600664</td>
+        <td class="c-industry">医药生物</td><td class="c-category">医药</td>
+        <td class="c-change">+10.09%</td>
+        <td class="c-board">2连板</td>
+      </tr>
+      <tr data-industry="基建地产" data-search="恒尚节能 603137 建筑装饰 基建地产" data-pct="10.02" data-board="1">
+        <td class="c-name">恒尚节能</td>
+        <td class="c-code">603137</td>
+        <td class="c-industry">建筑装饰</td><td class="c-category">基建地产</td>
+        <td class="c-change">+10.02%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="周期" data-search="肯特催化 603120 基础化工 周期" data-pct="10.00" data-board="1">
+        <td class="c-name">肯特催化</td>
+        <td class="c-code">603120</td>
+        <td class="c-industry">基础化工</td><td class="c-category">周期</td>
+        <td class="c-change">+10.00%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="消费" data-search="祖名股份 003030 农林牧渔 消费" data-pct="10.02" data-board="1">
+        <td class="c-name">祖名股份</td>
+        <td class="c-code">003030</td>
+        <td class="c-industry">农林牧渔</td><td class="c-category">消费</td>
+        <td class="c-change">+10.02%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="周期" data-search="亚泰集团 600881 综合 周期" data-pct="10.00" data-board="1">
+        <td class="c-name">亚泰集团</td>
+        <td class="c-code">600881</td>
+        <td class="c-industry">综合</td><td class="c-category">周期</td>
+        <td class="c-change">+10.00%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="医药" data-search="九芝堂 000989 医药生物 医药" data-pct="10.05" data-board="1">
+        <td class="c-name">九芝堂</td>
+        <td class="c-code">000989</td>
+        <td class="c-industry">医药生物</td><td class="c-category">医药</td>
+        <td class="c-change">+10.05%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="周期" data-search="宿迁联盛 603065 基础化工 周期" data-pct="10.03" data-board="1">
+        <td class="c-name">宿迁联盛</td>
+        <td class="c-code">603065</td>
+        <td class="c-industry">基础化工</td><td class="c-category">周期</td>
+        <td class="c-change">+10.03%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="医药" data-search="天目药业 600671 医药生物 医药" data-pct="9.99" data-board="1">
+        <td class="c-name">天目药业</td>
+        <td class="c-code">600671</td>
+        <td class="c-industry">医药生物</td><td class="c-category">医药</td>
+        <td class="c-change">+9.99%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="医药" data-search="陇神戎发 300534 医药生物 医药" data-pct="20.00" data-board="1">
+        <td class="c-name">陇神戎发</td>
+        <td class="c-code">300534</td>
+        <td class="c-industry">医药生物</td><td class="c-category">医药</td>
+        <td class="c-change">+20.00%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="制造" data-search="亚联机械 001395 机械设备 制造" data-pct="9.99" data-board="3">
+        <td class="c-name">亚联机械</td>
+        <td class="c-code">001395</td>
+        <td class="c-industry">机械设备</td><td class="c-category">制造</td>
+        <td class="c-change">+9.99%</td>
+        <td class="c-board">3连板</td>
+      </tr>
+      <tr data-industry="周期" data-search="宏桥控股 002379 有色金属 周期" data-pct="10.03" data-board="1">
+        <td class="c-name">宏桥控股</td>
+        <td class="c-code">002379</td>
+        <td class="c-industry">有色金属</td><td class="c-category">周期</td>
+        <td class="c-change">+10.03%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="周期" data-search="沃顿科技 000920 基础化工 周期" data-pct="10.04" data-board="2">
+        <td class="c-name">沃顿科技</td>
+        <td class="c-code">000920</td>
+        <td class="c-industry">基础化工</td><td class="c-category">周期</td>
+        <td class="c-change">+10.04%</td>
+        <td class="c-board">2连板</td>
+      </tr>
+      <tr data-industry="医药" data-search="灵康药业 603669 医药生物 医药" data-pct="10.03" data-board="1">
+        <td class="c-name">灵康药业</td>
+        <td class="c-code">603669</td>
+        <td class="c-industry">医药生物</td><td class="c-category">医药</td>
+        <td class="c-change">+10.03%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="消费" data-search="奇精机械 603677 家用电器 消费" data-pct="10.03" data-board="1">
+        <td class="c-name">奇精机械</td>
+        <td class="c-code">603677</td>
+        <td class="c-industry">家用电器</td><td class="c-category">消费</td>
+        <td class="c-change">+10.03%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="基建地产" data-search="华建集团 600629 建筑装饰 基建地产" data-pct="10.04" data-board="2">
+        <td class="c-name">华建集团</td>
+        <td class="c-code">600629</td>
+        <td class="c-industry">建筑装饰</td><td class="c-category">基建地产</td>
+        <td class="c-change">+10.04%</td>
+        <td class="c-board">2连板</td>
+      </tr>
+      <tr data-industry="TMT" data-search="中国软件 600536 计算机 TMT" data-pct="9.99" data-board="1">
+        <td class="c-name">中国软件</td>
+        <td class="c-code">600536</td>
+        <td class="c-industry">计算机</td><td class="c-category">TMT</td>
+        <td class="c-change">+9.99%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="制造" data-search="信通电子 001388 电力设备 制造" data-pct="10.00" data-board="1">
+        <td class="c-name">信通电子</td>
+        <td class="c-code">001388</td>
+        <td class="c-industry">电力设备</td><td class="c-category">制造</td>
+        <td class="c-change">+10.00%</td>
+        <td class="c-board">首板</td>
+      </tr>
+      <tr data-industry="医药" data-search="联环药业 600513 医药生物 医药" data-pct="10.01" data-board="2">
+        <td class="c-name">联环药业</td>
+        <td class="c-code">600513</td>
+        <td class="c-industry">医药生物</td><td class="c-category">医药</td>
+        <td class="c-change">+10.01%</td>
+        <td class="c-board">2连板</td>
+      </tr>
+      <tr data-industry="消费" data-search="梦百合 603313 轻工制造 消费" data-pct="10.06" data-board="1">
+        <td class="c-name">梦百合</td>
+        <td class="c-code">603313</td>
+        <td class="c-industry">轻工制造</td><td class="c-category">消费</td>
+        <td class="c-change">+10.06%</td>
+        <td class="c-board">首板</td>
+      </tr>
+  </tbody>
+</table>
+
+
+<div class="footer">
+  <strong>免责声明：本数据仅供参考，不构成投资建议</strong>
+</div>
+
+</div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('#filterButtons .filter-btn');
+  var searchBox = document.getElementById('searchBox');
+  var tbody = document.querySelector('#stockTable tbody');
+  var headers = document.querySelectorAll('#stockTable thead th.sortable');
+  var rows = Array.prototype.slice.call(document.querySelectorAll('#stockTable tbody tr'));
+  var countEl = document.getElementById('tableCount');
+  var total = rows.length;
+  var activeIndustry = '';
+  var keyword = '';
+  var sortKey = '';
+  var sortAsc = false;
+
+  function applyFilter() {
+    var shown = 0;
+    rows.forEach(function (r) {
+      var ind = r.getAttribute('data-industry') || '';
+      var text = (r.getAttribute('data-search') || '').toLowerCase();
+      var okInd = !activeIndustry || ind === activeIndustry;
+      var okKw = !keyword || text.indexOf(keyword) !== -1;
+      var visible = okInd && okKw;
+      r.style.display = visible ? '' : 'none';
+      if (visible) shown++;
+    });
+    countEl.textContent = '显示 ' + shown + ' / ' + total;
+  }
+
+  function applySort() {
+    if (!sortKey) return;
+    rows.sort(function (a, b) {
+      var va = parseFloat(a.getAttribute('data-' + sortKey)) || 0;
+      var vb = parseFloat(b.getAttribute('data-' + sortKey)) || 0;
+      return sortAsc ? va - vb : vb - va;
+    });
+    rows.forEach(function (r) { tbody.appendChild(r); });
+  }
+
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      buttons.forEach(function (x) { x.classList.remove('active'); });
+      b.classList.add('active');
+      activeIndustry = b.getAttribute('data-industry') || '';
+      applyFilter();
+    });
+  });
+
+  searchBox.addEventListener('input', function () {
+    keyword = searchBox.value.trim().toLowerCase();
+    applyFilter();
+  });
+
+  headers.forEach(function (h) {
+    h.addEventListener('click', function () {
+      var key = h.getAttribute('data-key');
+      if (sortKey === key) {
+        sortAsc = !sortAsc;
+      } else {
+        sortKey = key;
+        sortAsc = false; // 首次点击默认降序（高→低）
+      }
+      headers.forEach(function (x) {
+        x.classList.remove('sorted-asc', 'sorted-desc');
+      });
+      h.classList.add(sortAsc ? 'sorted-asc' : 'sorted-desc');
+      applySort();
+      applyFilter();
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
