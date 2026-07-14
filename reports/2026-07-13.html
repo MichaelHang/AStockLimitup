@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>2026年7月13日 A股涨停股板块分布（剔除ST与退市股）</title>
+<title>2026年7月13日 A股涨停股板块分布（剔除 ST 股与退市股）</title>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -26,7 +26,7 @@
   沪深京三市成交额约 <span class="green">2.83 万亿</span>，较前一交易日缩量约 5760 亿（-16.9%）。全市场约 801 只个股上涨、4683 只下跌，涨停 32 只（含 ST / 退市 / 北交所）、跌停 176 只。
   <span class="red">中药、医药（中医药振兴规划）、燃气（氦气出口管制）、银行等防御 / 政策板块逆势走强</span>；存储芯片、商业航天、半导体、人形机器人等科技成长方向大幅下挫。
   市场连板高度降至 3 板（亚联机械、立方制药、贵绳股份），连板梯队大幅萎缩、晋级率极低。
-</div></div>
+</div>
 
 <div class="concentration">
   <h2>涨停股行业集中度（申万一级，13 个行业，共 27 只）</h2>
@@ -43,11 +43,12 @@
   <div class="conc-row"><span class="conc-name">计算机</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
   <div class="conc-row"><span class="conc-name">电力设备</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
   <div class="conc-row"><span class="conc-name">轻工制造</span><div class="conc-track"><div class="conc-fill" style="width:14%"></div></div><span class="conc-num">1</span></div>
-</div></div>
+</div>
 
 <div class="removed-note">
   🚫 <strong>已剔除的 2 只退市股：</strong>国华退（000004）、云创退（920305）（处于退市整理，不计入涨停主数字 27）。全市场涨停约 32 只（含 ST / 退市 / 北交所），跌停 176 只。
-</div></div>
+</div>
+
 
 <div class="section-title">涨停股分板块清单</div>
 
@@ -290,7 +291,7 @@
     rows.forEach(function (r) {
       var ind = r.getAttribute('data-industry') || '';
       var text = (r.getAttribute('data-search') || '').toLowerCase();
-      var okInd = !activeIndustry || ind === activeIndustry;
+      var okInd = !activeIndustry || ind.indexOf(activeIndustry) !== -1;
       var okKw = !keyword || text.indexOf(keyword) !== -1;
       var visible = okInd && okKw;
       r.style.display = visible ? '' : 'none';

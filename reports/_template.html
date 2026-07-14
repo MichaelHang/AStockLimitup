@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{DATE_FULL}} A股涨停股板块分布（{{CALIBER}}）</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>🔥 A股涨停股板块分布</h1>
+  <div class="date">{{DATE_FULL}}（{{WEEKDAY}}） · 口径：{{CALIBER}}</div>
+  <div class="stats">
+    <div class="stat-box primary"><div class="num">{{LIMIT_UP}}</div><div class="label">涨停数</div></div>
+    <div class="stat-box secondary"><div class="num">{{FIRST_BOARD}} 首板 / {{CONT_BOARD}} 连板</div><div class="label">首板 vs 连板（最高 {{MAX_BOARD}} 连板）</div></div>
+    <div class="stat-box secondary"><div class="num">{{INDUSTRY_COUNT}}</div><div class="label">涉及{{INDUSTRY_COUNT_LABEL}}</div></div>
+    <div class="stat-box secondary"><div class="num">{{FENGBAN_RATE}}</div><div class="label">封板率</div></div>
+  </div>
+</div>
+
+<div class="market-summary">
+{{MARKET_SUMMARY}}
+</div>
+
+<div class="concentration">
+  <h2>{{CONCENTRATION_TITLE}}</h2>
+{{CONCENTRATION_ROWS}}
+</div>
+
+{{REMOVED_NOTE_BLOCK}}
+
+<div class="section-title">涨停股分板块清单</div>
+
+<div class="filter-bar">
+  <div class="filter-buttons" id="filterButtons">
+{{FILTER_BUTTONS}}
+  </div>
+  <input type="search" id="searchBox" class="search-box" placeholder="搜索名称 / 代码 / 行业 / 大类…">
+</div>
+
+<div class="table-count" id="tableCount">显示 {{LIMIT_UP}} / {{LIMIT_UP}}</div>
+
+<table class="stock-table" id="stockTable">
+  <thead>
+    <tr><th>名称</th><th>代码</th><th>{{INDUSTRY_TH}}</th>{{CATEGORY_TH}}<th class="sortable" data-key="pct">涨幅<span class="sort-ind"></span></th><th class="sortable" data-key="board">连板<span class="sort-ind"></span></th></tr>
+  </thead>
+  <tbody>
+{{STOCK_ROWS}}
+  </tbody>
+</table>
+
+
+<div class="footer">
+  <strong>免责声明：本数据仅供参考，不构成投资建议</strong>
+</div>
+
+</div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('#filterButtons .filter-btn');
+  var searchBox = document.getElementById('searchBox');
+  var tbody = document.querySelector('#stockTable tbody');
+  var headers = document.querySelectorAll('#stockTable thead th.sortable');
+  var rows = Array.prototype.slice.call(document.querySelectorAll('#stockTable tbody tr'));
+  var countEl = document.getElementById('tableCount');
+  var total = rows.length;
+  var activeIndustry = '';
+  var keyword = '';
+  var sortKey = '';
+  var sortAsc = false;
+
+  function applyFilter() {
+    var shown = 0;
+    rows.forEach(function (r) {
+      var ind = r.getAttribute('data-industry') || '';
+      var text = (r.getAttribute('data-search') || '').toLowerCase();
+      var okInd = !activeIndustry || ind.indexOf(activeIndustry) !== -1;
+      var okKw = !keyword || text.indexOf(keyword) !== -1;
+      var visible = okInd && okKw;
+      r.style.display = visible ? '' : 'none';
+      if (visible) shown++;
+    });
+    countEl.textContent = '显示 ' + shown + ' / ' + total;
+  }
+
+  function applySort() {
+    if (!sortKey) return;
+    rows.sort(function (a, b) {
+      var va = parseFloat(a.getAttribute('data-' + sortKey)) || 0;
+      var vb = parseFloat(b.getAttribute('data-' + sortKey)) || 0;
+      return sortAsc ? va - vb : vb - va;
+    });
+    rows.forEach(function (r) { tbody.appendChild(r); });
+  }
+
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      buttons.forEach(function (x) { x.classList.remove('active'); });
+      b.classList.add('active');
+      activeIndustry = b.getAttribute('data-industry') || '';
+      applyFilter();
+    });
+  });
+
+  searchBox.addEventListener('input', function () {
+    keyword = searchBox.value.trim().toLowerCase();
+    applyFilter();
+  });
+
+  headers.forEach(function (h) {
+    h.addEventListener('click', function () {
+      var key = h.getAttribute('data-key');
+      if (sortKey === key) {
+        sortAsc = !sortAsc;
+      } else {
+        sortKey = key;
+        sortAsc = false; // 首次点击默认降序（高→低）
+      }
+      headers.forEach(function (x) {
+        x.classList.remove('sorted-asc', 'sorted-desc');
+      });
+      h.classList.add(sortAsc ? 'sorted-asc' : 'sorted-desc');
+      applySort();
+      applyFilter();
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
