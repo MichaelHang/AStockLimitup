@@ -1,0 +1,542 @@
+{
+  "date": "2026-07-15",
+  "weekday": "周三",
+  "caliber": "剔除 ST / 退市 / 北交所 / B 股（申万一级行业口径）",
+  "fengban_rate": "78.0%",
+  "market_summary": "  <strong>大盘概况：</strong>\n  上证指数涨<span class=\"red\">+-0.29%</span>、深证成指涨<span class=\"red\">+-0.97%</span>、创业板指涨<span class=\"red\">+-1.21%</span>、科创50涨<span class=\"red\">+-4.25%</span>。沪深京三市成交额约 <span class=\"green\">2.57 万亿</span>（上证 12263 亿）。全市场涨停 72 只（含 ST / 退市 / 北交所）、跌停 31 只。\n  <span class=\"red\">医药生物（19只）、基础化工（5只）、传媒（5只） 等申万一级行业板块逆势走强</span>；市场连板高度升至 4 板（哈药股份（4板）、信通电子（3板）、恒尚节能（3板）、九安医疗（2板）、艾艾精工（2板）、贤丰控股（2板）、迪哲医药-U（2板）、天普股份（2板）、世茂能源（2板）、人民同泰（2板）、大有能源（2板）、金煤科技（2板）、赤天化（2板）、江苏索普（2板）、富春染织（2板））。",
+  "removed_note": "🚫 <strong>已剔除 1 只 ST / 退市 / 北交所 / B 股：</strong>云创退（920305）。全市场涨停约 72 只（含 ST / 退市 / 北交所），跌停 31 只；下方清单为剔除后涨停股（共 71 只，按申万一级行业口径）。",
+  "validation": {
+    "em_raw": 72,
+    "em_clean": 71,
+    "ths_num": 71,
+    "ths_history": 91,
+    "ths_total": 71,
+    "ths_cover": 54,
+    "ths_cover_pct": 76,
+    "common": 54,
+    "only_em": [
+      "000593",
+      "000722",
+      "000889",
+      "000908",
+      "000959",
+      "001317",
+      "001388",
+      "002141",
+      "002382",
+      "301520",
+      "600664",
+      "600829",
+      "600844",
+      "603192",
+      "603580",
+      "603657",
+      "603969"
+    ],
+    "only_ths": [],
+    "consistent": true,
+    "sources": [
+      "东财 getTopicZTPool",
+      "同花顺 limit_up_pool"
+    ]
+  },
+  "stocks": [
+    {
+      "name": "蓝帆医疗",
+      "code": "002382",
+      "industry": "医药生物",
+      "pct": 9.96,
+      "board": 1
+    },
+    {
+      "name": "九安医疗",
+      "code": "002432",
+      "industry": "医药生物",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "华盛昌",
+      "code": "002980",
+      "industry": "电力设备",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "昭衍新药",
+      "code": "603127",
+      "industry": "医药生物",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "艾艾精工",
+      "code": "603580",
+      "industry": "基础化工",
+      "pct": 10.01,
+      "board": 2
+    },
+    {
+      "name": "中嘉博创",
+      "code": "000889",
+      "industry": "通信",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "中利集团",
+      "code": "002309",
+      "industry": "电力设备",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "贤丰控股",
+      "code": "002141",
+      "industry": "电子",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "哈药股份",
+      "code": "600664",
+      "industry": "医药生物",
+      "pct": 10.05,
+      "board": 4
+    },
+    {
+      "name": "大湖股份",
+      "code": "600257",
+      "industry": "农林牧渔",
+      "pct": 10.11,
+      "board": 1
+    },
+    {
+      "name": "儒意电影",
+      "code": "002739",
+      "industry": "传媒",
+      "pct": 9.96,
+      "board": 1
+    },
+    {
+      "name": "信通电子",
+      "code": "001388",
+      "industry": "电力设备",
+      "pct": 9.99,
+      "board": 3
+    },
+    {
+      "name": "迪哲医药-U",
+      "code": "688192",
+      "industry": "医药生物",
+      "pct": 20.01,
+      "board": 2
+    },
+    {
+      "name": "天安新材",
+      "code": "603725",
+      "industry": "轻工制造",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "智度股份",
+      "code": "000676",
+      "industry": "传媒",
+      "pct": 9.92,
+      "board": 1
+    },
+    {
+      "name": "天普股份",
+      "code": "605255",
+      "industry": "汽车",
+      "pct": 10.01,
+      "board": 2
+    },
+    {
+      "name": "美盈森",
+      "code": "002303",
+      "industry": "轻工制造",
+      "pct": 10.11,
+      "board": 1
+    },
+    {
+      "name": "世茂能源",
+      "code": "605028",
+      "industry": "公用事业",
+      "pct": 9.99,
+      "board": 2
+    },
+    {
+      "name": "德龙汇能",
+      "code": "000593",
+      "industry": "公用事业",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "人民同泰",
+      "code": "600829",
+      "industry": "医药生物",
+      "pct": 10.01,
+      "board": 2
+    },
+    {
+      "name": "海南海药",
+      "code": "000566",
+      "industry": "医药生物",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "睿智医药",
+      "code": "300149",
+      "industry": "医药生物",
+      "pct": 19.98,
+      "board": 1
+    },
+    {
+      "name": "基蛋生物",
+      "code": "603387",
+      "industry": "医药生物",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "南华生物",
+      "code": "000504",
+      "industry": "医药生物",
+      "pct": 9.95,
+      "board": 1
+    },
+    {
+      "name": "爱旭股份",
+      "code": "600732",
+      "industry": "电力设备",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "博瑞医药",
+      "code": "688166",
+      "industry": "医药生物",
+      "pct": 20.01,
+      "board": 1
+    },
+    {
+      "name": "宁波中百",
+      "code": "600857",
+      "industry": "商贸零售",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "新华百货",
+      "code": "600785",
+      "industry": "商贸零售",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "大有能源",
+      "code": "600403",
+      "industry": "煤炭",
+      "pct": 9.96,
+      "board": 2
+    },
+    {
+      "name": "春光科技",
+      "code": "603657",
+      "industry": "家用电器",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "百花医药",
+      "code": "600721",
+      "industry": "医药生物",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "璞源材料",
+      "code": "603196",
+      "industry": "纺织服饰",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "香江控股",
+      "code": "600162",
+      "industry": "房地产",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "永安药业",
+      "code": "002365",
+      "industry": "医药生物",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "昂利康",
+      "code": "002940",
+      "industry": "医药生物",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "宏润建设",
+      "code": "002062",
+      "industry": "建筑装饰",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "石药景峰",
+      "code": "000908",
+      "industry": "医药生物",
+      "pct": 9.97,
+      "board": 1
+    },
+    {
+      "name": "美诺华",
+      "code": "603538",
+      "industry": "医药生物",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "东方新能",
+      "code": "002310",
+      "industry": "公用事业",
+      "pct": 10.24,
+      "board": 1
+    },
+    {
+      "name": "三羊马",
+      "code": "001317",
+      "industry": "交通运输",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "哈三联",
+      "code": "002900",
+      "industry": "医药生物",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "跨境通",
+      "code": "002640",
+      "industry": "商贸零售",
+      "pct": 10.18,
+      "board": 1
+    },
+    {
+      "name": "湖南发展",
+      "code": "000722",
+      "industry": "公用事业",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "金煤科技",
+      "code": "600844",
+      "industry": "基础化工",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "金种子酒",
+      "code": "600199",
+      "industry": "食品饮料",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "中宠股份",
+      "code": "002891",
+      "industry": "农林牧渔",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "四川双马",
+      "code": "000935",
+      "industry": "非银金融",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "若羽臣",
+      "code": "003010",
+      "industry": "商贸零售",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "狮头股份",
+      "code": "600539",
+      "industry": "商贸零售",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "银宝山新",
+      "code": "002786",
+      "industry": "机械设备",
+      "pct": 9.96,
+      "board": 1
+    },
+    {
+      "name": "安正时尚",
+      "code": "603839",
+      "industry": "纺织服饰",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "幸福蓝海",
+      "code": "300528",
+      "industry": "传媒",
+      "pct": 19.99,
+      "board": 1
+    },
+    {
+      "name": "赤天化",
+      "code": "600227",
+      "industry": "基础化工",
+      "pct": 10.19,
+      "board": 2
+    },
+    {
+      "name": "宏辉果蔬",
+      "code": "603336",
+      "industry": "农林牧渔",
+      "pct": 9.96,
+      "board": 1
+    },
+    {
+      "name": "新大洲A",
+      "code": "000571",
+      "industry": "煤炭",
+      "pct": 9.97,
+      "board": 1
+    },
+    {
+      "name": "首钢股份",
+      "code": "000959",
+      "industry": "钢铁",
+      "pct": 10.06,
+      "board": 1
+    },
+    {
+      "name": "天顺股份",
+      "code": "002800",
+      "industry": "交通运输",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "恺英网络",
+      "code": "002517",
+      "industry": "传媒",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "古井贡酒",
+      "code": "000596",
+      "industry": "食品饮料",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "味知香",
+      "code": "605089",
+      "industry": "食品饮料",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "巨人网络",
+      "code": "002558",
+      "industry": "传媒",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "云中马",
+      "code": "603130",
+      "industry": "纺织服饰",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "汇得科技",
+      "code": "603192",
+      "industry": "基础化工",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "江苏索普",
+      "code": "600746",
+      "industry": "基础化工",
+      "pct": 9.93,
+      "board": 2
+    },
+    {
+      "name": "银龙股份",
+      "code": "603969",
+      "industry": "机械设备",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "银信科技",
+      "code": "300231",
+      "industry": "计算机",
+      "pct": 19.95,
+      "board": 1
+    },
+    {
+      "name": "恒尚节能",
+      "code": "603137",
+      "industry": "建筑装饰",
+      "pct": 10.01,
+      "board": 3
+    },
+    {
+      "name": "富春染织",
+      "code": "605189",
+      "industry": "纺织服饰",
+      "pct": 9.99,
+      "board": 2
+    },
+    {
+      "name": "凯莱英",
+      "code": "002821",
+      "industry": "医药生物",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "豫能控股",
+      "code": "001896",
+      "industry": "公用事业",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "万邦医药",
+      "code": "301520",
+      "industry": "医药生物",
+      "pct": 20.0,
+      "board": 1
+    }
+  ]
+}
