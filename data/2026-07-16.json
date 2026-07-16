@@ -1,0 +1,320 @@
+{
+  "date": "2026-07-16",
+  "weekday": "周四",
+  "caliber": "剔除 ST / 退市 / 北交所 / B 股（申万一级行业口径）",
+  "fengban_rate": "61.5%",
+  "market_summary": "  <strong>大盘概况：</strong>\n  上证指数涨<span class=\"red\">+-1.85%</span>、深证成指涨<span class=\"red\">+-1.97%</span>、创业板指涨<span class=\"red\">+-2.95%</span>、科创50涨<span class=\"red\">+-4.02%</span>。沪深京三市成交额约 <span class=\"green\">2.40 万亿</span>（上证 11242 亿）。全市场涨停 42 只（含 ST / 退市 / 北交所）、跌停 33 只。\n  <span class=\"red\">医药生物（9只）、电子（5只）、传媒（5只） 等申万一级行业板块逆势走强</span>；市场连板高度升至 5 板（哈药股份（5板）、艾艾精工（3板）、儒意电影（2板）、香江控股（2板）、永安药业（2板）、南华生物（2板）、智度股份（2板）、新华百货（2板）、海南海药（2板））。",
+  "removed_note": "🚫 <strong>已剔除 2 只 ST / 退市 / 北交所 / B 股：</strong>云创退（920305）、豪声电子（920701）。全市场涨停约 42 只（含 ST / 退市 / 北交所），跌停 33 只；下方清单为剔除后涨停股（共 40 只，按申万一级行业口径）。",
+  "validation": {
+    "em_raw": 42,
+    "em_clean": 40,
+    "ths_num": 40,
+    "ths_history": 65,
+    "ths_total": 40,
+    "ths_cover": 28,
+    "ths_cover_pct": 70,
+    "common": 28,
+    "only_em": [
+      "001365",
+      "002045",
+      "002775",
+      "300805",
+      "301176",
+      "600162",
+      "600203",
+      "600602",
+      "600664",
+      "603407",
+      "603567",
+      "603716"
+    ],
+    "only_ths": [],
+    "consistent": true,
+    "sources": [
+      "东财 getTopicZTPool",
+      "同花顺 limit_up_pool"
+    ]
+  },
+  "stocks": [
+    {
+      "name": "道明光学",
+      "code": "002632",
+      "industry": "基础化工",
+      "pct": 10.06,
+      "board": 1
+    },
+    {
+      "name": "艾艾精工",
+      "code": "603580",
+      "industry": "基础化工",
+      "pct": 9.99,
+      "board": 3
+    },
+    {
+      "name": "哈药股份",
+      "code": "600664",
+      "industry": "医药生物",
+      "pct": 10.02,
+      "board": 5
+    },
+    {
+      "name": "福蓉科技",
+      "code": "603327",
+      "industry": "电子",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "儒意电影",
+      "code": "002739",
+      "industry": "传媒",
+      "pct": 10.02,
+      "board": 2
+    },
+    {
+      "name": "香江控股",
+      "code": "600162",
+      "industry": "房地产",
+      "pct": 9.88,
+      "board": 2
+    },
+    {
+      "name": "永安药业",
+      "code": "002365",
+      "industry": "医药生物",
+      "pct": 10.02,
+      "board": 2
+    },
+    {
+      "name": "凤形股份",
+      "code": "002760",
+      "industry": "机械设备",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "欢瑞世纪",
+      "code": "000892",
+      "industry": "传媒",
+      "pct": 9.94,
+      "board": 1
+    },
+    {
+      "name": "格林精密",
+      "code": "300968",
+      "industry": "电子",
+      "pct": 20.05,
+      "board": 1
+    },
+    {
+      "name": "沃顿科技",
+      "code": "000920",
+      "industry": "基础化工",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "国光电器",
+      "code": "002045",
+      "industry": "电子",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "云赛智联",
+      "code": "600602",
+      "industry": "计算机",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "南华生物",
+      "code": "000504",
+      "industry": "医药生物",
+      "pct": 9.99,
+      "board": 2
+    },
+    {
+      "name": "星网宇达",
+      "code": "002829",
+      "industry": "国防军工",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "逸豪新材",
+      "code": "301176",
+      "industry": "电子",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "劲旅环境",
+      "code": "001230",
+      "industry": "环保",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "福日电子",
+      "code": "600203",
+      "industry": "电子",
+      "pct": 9.96,
+      "board": 1
+    },
+    {
+      "name": "电声股份",
+      "code": "300805",
+      "industry": "传媒",
+      "pct": 19.97,
+      "board": 1
+    },
+    {
+      "name": "智度股份",
+      "code": "000676",
+      "industry": "传媒",
+      "pct": 10.09,
+      "board": 2
+    },
+    {
+      "name": "天音控股",
+      "code": "000829",
+      "industry": "商贸零售",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "长裕集团",
+      "code": "603407",
+      "industry": "基础化工",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "圣龙股份",
+      "code": "603178",
+      "industry": "汽车",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "恒为科技",
+      "code": "603496",
+      "industry": "计算机",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "美格智能",
+      "code": "002881",
+      "industry": "通信",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "北京科锐",
+      "code": "002350",
+      "industry": "电力设备",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "天海电子",
+      "code": "001365",
+      "industry": "汽车",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "南极电商",
+      "code": "002127",
+      "industry": "商贸零售",
+      "pct": 9.86,
+      "board": 1
+    },
+    {
+      "name": "创新医疗",
+      "code": "002173",
+      "industry": "医药生物",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "新华百货",
+      "code": "600785",
+      "industry": "商贸零售",
+      "pct": 10.04,
+      "board": 2
+    },
+    {
+      "name": "上海电影",
+      "code": "601595",
+      "industry": "传媒",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "沙河股份",
+      "code": "000014",
+      "industry": "房地产",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "海南海药",
+      "code": "000566",
+      "industry": "医药生物",
+      "pct": 10.1,
+      "board": 2
+    },
+    {
+      "name": "塞力医疗",
+      "code": "603716",
+      "industry": "医药生物",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "润达医疗",
+      "code": "603108",
+      "industry": "医药生物",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "立新能源",
+      "code": "001258",
+      "industry": "公用事业",
+      "pct": 9.94,
+      "board": 1
+    },
+    {
+      "name": "文科股份",
+      "code": "002775",
+      "industry": "建筑装饰",
+      "pct": 10.06,
+      "board": 1
+    },
+    {
+      "name": "片仔癀",
+      "code": "600436",
+      "industry": "医药生物",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "珍宝岛",
+      "code": "603567",
+      "industry": "医药生物",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "大众交通",
+      "code": "600611",
+      "industry": "交通运输",
+      "pct": 9.95,
+      "board": 1
+    }
+  ]
+}
