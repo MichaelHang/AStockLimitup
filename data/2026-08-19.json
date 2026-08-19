@@ -1,0 +1,289 @@
+{
+  "date": "2026-08-19",
+  "weekday": "周三",
+  "caliber": "剔除 ST / 退市 / 北交所 / B 股（申万一级行业口径）",
+  "fengban_rate": "75.0%",
+  "market_summary": "  <strong>大盘概况：</strong>\n  上证指数涨<span class=\"red\">+-2.40%</span>、深证成指涨<span class=\"red\">+-5.01%</span>、创业板指涨<span class=\"red\">+-6.26%</span>、科创50涨<span class=\"red\">+-6.89%</span>。沪深京三市成交额约 <span class=\"green\">2.51 万亿</span>（上证 12181 亿）。全市场涨停 36 只（含 ST / 退市 / 北交所）、跌停 118 只。\n  <span class=\"red\">医药生物（4只）、电力设备（3只）、农产品加（3只） 等申万一级行业板块逆势走强</span>；市场连板高度升至 3 板（金健米业（3板）、红四方（3板）、京粮控股（3板）、日丰股份（2板）、深华发Ａ（2板）、万向德农（2板）、学大教育（2板））。",
+  "removed_note": "🚫 <strong>已剔除 0 只 ST / 退市 / 北交所 / B 股：</strong>。全市场涨停约 36 只（含 ST / 退市 / 北交所），跌停 118 只；下方清单为剔除后涨停股（共 36 只，按申万一级行业口径）。",
+  "validation": {
+    "em_raw": 36,
+    "em_clean": 36,
+    "ths_num": 36,
+    "ths_history": 48,
+    "ths_total": 36,
+    "ths_cover": 27,
+    "ths_cover_pct": 75,
+    "common": 27,
+    "only_em": [
+      "000526",
+      "000560",
+      "000736",
+      "002333",
+      "002543",
+      "301211",
+      "600783",
+      "603290",
+      "603801"
+    ],
+    "only_ths": [],
+    "consistent": true,
+    "sources": [
+      "东财 getTopicZTPool",
+      "同花顺 limit_up_pool"
+    ]
+  },
+  "stocks": [
+    {
+      "name": "罗普斯金",
+      "code": "002333",
+      "industry": "建筑材料",
+      "pct": 10.07,
+      "board": 1
+    },
+    {
+      "name": "日丰股份",
+      "code": "002953",
+      "industry": "电力设备",
+      "pct": 10.04,
+      "board": 2
+    },
+    {
+      "name": "金健米业",
+      "code": "600127",
+      "industry": "农产品加",
+      "pct": 9.99,
+      "board": 3
+    },
+    {
+      "name": "鲁信创投",
+      "code": "600783",
+      "industry": "机械设备",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "红四方",
+      "code": "603395",
+      "industry": "基础化工",
+      "pct": 10.02,
+      "board": 3
+    },
+    {
+      "name": "深华发Ａ",
+      "code": "000020",
+      "industry": "电子",
+      "pct": 10.01,
+      "board": 2
+    },
+    {
+      "name": "宝泰隆",
+      "code": "601011",
+      "industry": "焦炭Ⅱ",
+      "pct": 10.14,
+      "board": 1
+    },
+    {
+      "name": "南都物业",
+      "code": "603506",
+      "industry": "房地产服",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "万向德农",
+      "code": "600371",
+      "industry": "农林牧渔",
+      "pct": 9.95,
+      "board": 2
+    },
+    {
+      "name": "尚太科技",
+      "code": "001301",
+      "industry": "电力设备",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "哈三联",
+      "code": "002900",
+      "industry": "医药生物",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "京粮控股",
+      "code": "000505",
+      "industry": "农产品加",
+      "pct": 10.01,
+      "board": 3
+    },
+    {
+      "name": "百合股份",
+      "code": "603102",
+      "industry": "食品饮料",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "志邦家居",
+      "code": "603801",
+      "industry": "轻工制造",
+      "pct": 10.05,
+      "board": 1
+    },
+    {
+      "name": "学大教育",
+      "code": "000526",
+      "industry": "社会服务",
+      "pct": 9.99,
+      "board": 2
+    },
+    {
+      "name": "我爱我家",
+      "code": "000560",
+      "industry": "房地产服",
+      "pct": 10.19,
+      "board": 1
+    },
+    {
+      "name": "汉森制药",
+      "code": "002412",
+      "industry": "医药生物",
+      "pct": 10.07,
+      "board": 1
+    },
+    {
+      "name": "中交发展",
+      "code": "000736",
+      "industry": "房地产服",
+      "pct": 10.11,
+      "board": 1
+    },
+    {
+      "name": "亨迪药业",
+      "code": "301211",
+      "industry": "医药生物",
+      "pct": 19.97,
+      "board": 1
+    },
+    {
+      "name": "美锦能源",
+      "code": "000723",
+      "industry": "焦炭Ⅱ",
+      "pct": 9.89,
+      "board": 1
+    },
+    {
+      "name": "西点药业",
+      "code": "301130",
+      "industry": "医药生物",
+      "pct": 19.99,
+      "board": 1
+    },
+    {
+      "name": "好太太",
+      "code": "603848",
+      "industry": "轻工制造",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "速达股份",
+      "code": "001277",
+      "industry": "机械设备",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "永顺泰",
+      "code": "001338",
+      "industry": "农产品加",
+      "pct": 10.06,
+      "board": 1
+    },
+    {
+      "name": "大有能源",
+      "code": "600403",
+      "industry": "煤炭",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "斯达半导",
+      "code": "603290",
+      "industry": "电子",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "江顺科技",
+      "code": "001400",
+      "industry": "机械设备",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "金利华电",
+      "code": "300069",
+      "industry": "电力设备",
+      "pct": 20.01,
+      "board": 1
+    },
+    {
+      "name": "陕西黑猫",
+      "code": "601015",
+      "industry": "焦炭Ⅱ",
+      "pct": 10.09,
+      "board": 1
+    },
+    {
+      "name": "中毅达",
+      "code": "600610",
+      "industry": "基础化工",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "日出东方",
+      "code": "603366",
+      "industry": "家用电器",
+      "pct": 9.94,
+      "board": 1
+    },
+    {
+      "name": "南 京 港",
+      "code": "002040",
+      "industry": "交通运输",
+      "pct": 9.95,
+      "board": 1
+    },
+    {
+      "name": "华锦股份",
+      "code": "000059",
+      "industry": "石油石化",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "亿田智能",
+      "code": "300911",
+      "industry": "家用电器",
+      "pct": 19.98,
+      "board": 1
+    },
+    {
+      "name": "万和电气",
+      "code": "002543",
+      "industry": "家用电器",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "金能科技",
+      "code": "603113",
+      "industry": "基础化工",
+      "pct": 10.04,
+      "board": 1
+    }
+  ]
+}
