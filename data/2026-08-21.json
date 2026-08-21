@@ -1,0 +1,417 @@
+{
+  "date": "2026-08-21",
+  "weekday": "周五",
+  "caliber": "剔除 ST / 退市 / 北交所 / B 股（申万一级行业口径）",
+  "fengban_rate": "75.0%",
+  "market_summary": "  <strong>大盘概况：</strong>\n  上证指数涨<span class=\"red\">+0.04%</span>、深证成指涨<span class=\"red\">+0.87%</span>、创业板指涨<span class=\"red\">+1.43%</span>、科创50涨<span class=\"red\">+0.04%</span>。沪深京三市成交额约 <span class=\"green\">1.88 万亿</span>（上证 8834 亿）。全市场涨停 54 只（含 ST / 退市 / 北交所）、跌停 13 只。\n  <span class=\"red\">医药生物（7只）、机械设备（7只）、基础化工（7只） 等申万一级行业板块逆势走强</span>；市场连板高度升至 3 板（汉森制药（3板）、深中华A（2板）、双鹭药业（2板）、键凯科技（2板）、中 关 村（2板）、贝瑞基因（2板）、哈森股份（2板）、科森科技（2板）、近岸蛋白（2板）、宇环数控（2板）、通鼎互联（2板））。",
+  "removed_note": "🚫 <strong>已剔除 0 只 ST / 退市 / 北交所 / B 股：</strong>。全市场涨停约 54 只（含 ST / 退市 / 北交所），跌停 13 只；下方清单为剔除后涨停股（共 54 只，按申万一级行业口径）。",
+  "validation": {
+    "em_raw": 54,
+    "em_clean": 54,
+    "ths_num": 54,
+    "ths_history": 72,
+    "ths_total": 54,
+    "ths_cover": 43,
+    "ths_cover_pct": 80,
+    "common": 43,
+    "only_em": [
+      "000017",
+      "002038",
+      "002045",
+      "002396",
+      "002491",
+      "002686",
+      "003018",
+      "300214",
+      "603079",
+      "603095",
+      "603958"
+    ],
+    "only_ths": [],
+    "consistent": true,
+    "sources": [
+      "东财 getTopicZTPool",
+      "同花顺 limit_up_pool"
+    ]
+  },
+  "stocks": [
+    {
+      "name": "深中华A",
+      "code": "000017",
+      "industry": "纺织服饰",
+      "pct": 10.06,
+      "board": 2
+    },
+    {
+      "name": "双鹭药业",
+      "code": "002038",
+      "industry": "医药生物",
+      "pct": 9.94,
+      "board": 2
+    },
+    {
+      "name": "达 意 隆",
+      "code": "002209",
+      "industry": "机械设备",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "汉森制药",
+      "code": "002412",
+      "industry": "医药生物",
+      "pct": 10.04,
+      "board": 3
+    },
+    {
+      "name": "新华百货",
+      "code": "600785",
+      "industry": "商贸零售",
+      "pct": 10.06,
+      "board": 1
+    },
+    {
+      "name": "键凯科技",
+      "code": "688356",
+      "industry": "医药生物",
+      "pct": 20.0,
+      "board": 2
+    },
+    {
+      "name": "中 关 村",
+      "code": "000931",
+      "industry": "医药生物",
+      "pct": 9.94,
+      "board": 2
+    },
+    {
+      "name": "杭齿前进",
+      "code": "601177",
+      "industry": "机械设备",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "贝瑞基因",
+      "code": "000710",
+      "industry": "医药生物",
+      "pct": 10.03,
+      "board": 2
+    },
+    {
+      "name": "楚天龙",
+      "code": "003040",
+      "industry": "通信",
+      "pct": 9.97,
+      "board": 1
+    },
+    {
+      "name": "哈森股份",
+      "code": "603958",
+      "industry": "纺织服饰",
+      "pct": 10.01,
+      "board": 2
+    },
+    {
+      "name": "福华尚纬",
+      "code": "603333",
+      "industry": "电力设备",
+      "pct": 10.06,
+      "board": 1
+    },
+    {
+      "name": "亿利达",
+      "code": "002686",
+      "industry": "机械设备",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "和远气体",
+      "code": "002971",
+      "industry": "基础化工",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "科森科技",
+      "code": "603626",
+      "industry": "电子",
+      "pct": 10.03,
+      "board": 2
+    },
+    {
+      "name": "越剑智能",
+      "code": "603095",
+      "industry": "机械设备",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "士兰微",
+      "code": "600460",
+      "industry": "电子",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "圣达生物",
+      "code": "603079",
+      "industry": "基础化工",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "水发燃气",
+      "code": "603318",
+      "industry": "公用事业",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "可川科技",
+      "code": "603052",
+      "industry": "电子",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "白银有色",
+      "code": "601212",
+      "industry": "有色金属",
+      "pct": 9.93,
+      "board": 1
+    },
+    {
+      "name": "飞龙股份",
+      "code": "002536",
+      "industry": "汽车",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "瑞斯康达",
+      "code": "603803",
+      "industry": "通信",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "星网锐捷",
+      "code": "002396",
+      "industry": "通信",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "金富科技",
+      "code": "003018",
+      "industry": "轻工制造",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "东信和平",
+      "code": "002017",
+      "industry": "通信",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "江钨装备",
+      "code": "600397",
+      "industry": "机械设备",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "宿迁联盛",
+      "code": "603065",
+      "industry": "基础化工",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "福达合金",
+      "code": "603045",
+      "industry": "有色金属",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "博汇股份",
+      "code": "300839",
+      "industry": "石油石化",
+      "pct": 20.02,
+      "board": 1
+    },
+    {
+      "name": "旭光电子",
+      "code": "600353",
+      "industry": "电子",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "共达电声",
+      "code": "002655",
+      "industry": "电子",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "豪美新材",
+      "code": "002988",
+      "industry": "有色金属",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "天洋新材",
+      "code": "603330",
+      "industry": "基础化工",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "融捷股份",
+      "code": "002192",
+      "industry": "有色金属",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "日科化学",
+      "code": "300214",
+      "industry": "基础化工",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "近岸蛋白",
+      "code": "688137",
+      "industry": "医药生物",
+      "pct": 20.0,
+      "board": 2
+    },
+    {
+      "name": "精达股份",
+      "code": "600577",
+      "industry": "电力设备",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "湖南白银",
+      "code": "002716",
+      "industry": "有色金属",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "高新发展",
+      "code": "000628",
+      "industry": "建筑装饰",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "宇环数控",
+      "code": "002903",
+      "industry": "机械设备",
+      "pct": 10.01,
+      "board": 2
+    },
+    {
+      "name": "国星光电",
+      "code": "002449",
+      "industry": "电子",
+      "pct": 9.95,
+      "board": 1
+    },
+    {
+      "name": "深科达",
+      "code": "688328",
+      "industry": "机械设备",
+      "pct": 19.99,
+      "board": 1
+    },
+    {
+      "name": "中瓷电子",
+      "code": "003031",
+      "industry": "通信",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "诺德股份",
+      "code": "600110",
+      "industry": "电力设备",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "秦安股份",
+      "code": "603758",
+      "industry": "汽车",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "盛达资源",
+      "code": "000603",
+      "industry": "有色金属",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "勤上股份",
+      "code": "002638",
+      "industry": "家用电器",
+      "pct": 10.13,
+      "board": 1
+    },
+    {
+      "name": "国光电器",
+      "code": "002045",
+      "industry": "电子",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "通鼎互联",
+      "code": "002491",
+      "industry": "通信",
+      "pct": 10.02,
+      "board": 2
+    },
+    {
+      "name": "北陆药业",
+      "code": "300016",
+      "industry": "医药生物",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "沃特股份",
+      "code": "002886",
+      "industry": "基础化工",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "德尔未来",
+      "code": "002631",
+      "industry": "轻工制造",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "肯特股份",
+      "code": "301591",
+      "industry": "基础化工",
+      "pct": 20.01,
+      "board": 1
+    }
+  ]
+}
