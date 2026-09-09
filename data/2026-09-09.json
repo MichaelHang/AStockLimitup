@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-09",
+  "weekday": "周三",
+  "caliber": "剔除 ST / 退市 / 北交所 / B 股（申万一级行业口径）",
+  "fengban_rate": "64.0%",
+  "market_summary": "  <strong>大盘概况：</strong>\n  上证指数涨<span class=\"red\">+0.28%</span>、深证成指涨<span class=\"red\">+0.15%</span>、创业板指涨<span class=\"red\">+-0.14%</span>、科创50涨<span class=\"red\">+-0.69%</span>。沪深京三市成交额约 <span class=\"green\">1.86 万亿</span>（上证 8737 亿）。全市场涨停 48 只（含 ST / 退市 / 北交所）、跌停 7 只。\n  <span class=\"red\">农林牧渔（7只）、基础化工（6只）、有色金属（3只） 等申万一级行业板块逆势走强</span>；市场连板高度升至 5 板（百大集团（5板）、金正大（3板）、华脉科技（3板）、中百集团（3板）、桂林旅游（3板）、红棉股份（2板）、泸天化（2板）、精艺股份（2板）、瑞尔特（2板）、众泰汽车（2板）、中粮科技（2板）、华康股份（2板）、精华制药（2板）、云煤能源（2板）、黑猫股份（2板））。",
+  "removed_note": "🚫 <strong>已剔除 0 只 ST / 退市 / 北交所 / B 股：</strong>。全市场涨停约 48 只（含 ST / 退市 / 北交所），跌停 7 只；下方清单为剔除后涨停股（共 48 只，按申万一级行业口径）。",
+  "validation": {
+    "em_raw": 48,
+    "em_clean": 48,
+    "ths_num": 48,
+    "ths_history": 75,
+    "ths_total": 48,
+    "ths_cover": 39,
+    "ths_cover_pct": 81,
+    "common": 39,
+    "only_em": [
+      "000980",
+      "002040",
+      "002077",
+      "002470",
+      "002498",
+      "600192",
+      "600255",
+      "603328",
+      "605198"
+    ],
+    "only_ths": [],
+    "consistent": true,
+    "sources": [
+      "东财 getTopicZTPool",
+      "同花顺 limit_up_pool"
+    ]
+  },
+  "stocks": [
+    {
+      "name": "红棉股份",
+      "code": "000523",
+      "industry": "综合",
+      "pct": 10.1,
+      "board": 2
+    },
+    {
+      "name": "泸天化",
+      "code": "000912",
+      "industry": "基础化工",
+      "pct": 9.94,
+      "board": 2
+    },
+    {
+      "name": "悦心健康",
+      "code": "002162",
+      "industry": "轻工制造",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "精艺股份",
+      "code": "002295",
+      "industry": "有色金属",
+      "pct": 9.97,
+      "board": 2
+    },
+    {
+      "name": "金正大",
+      "code": "002470",
+      "industry": "基础化工",
+      "pct": 9.88,
+      "board": 3
+    },
+    {
+      "name": "瑞尔特",
+      "code": "002790",
+      "industry": "轻工制造",
+      "pct": 10.01,
+      "board": 2
+    },
+    {
+      "name": "华脉科技",
+      "code": "603042",
+      "industry": "通信",
+      "pct": 10.02,
+      "board": 3
+    },
+    {
+      "name": "众泰汽车",
+      "code": "000980",
+      "industry": "汽车",
+      "pct": 9.78,
+      "board": 2
+    },
+    {
+      "name": "鼎信通讯",
+      "code": "603421",
+      "industry": "通信",
+      "pct": 9.95,
+      "board": 1
+    },
+    {
+      "name": "大港股份",
+      "code": "002077",
+      "industry": "电子",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "中粮科技",
+      "code": "000930",
+      "industry": "农林牧渔",
+      "pct": 9.95,
+      "board": 2
+    },
+    {
+      "name": "百大集团",
+      "code": "600865",
+      "industry": "商贸零售",
+      "pct": 9.97,
+      "board": 5
+    },
+    {
+      "name": "新农开发",
+      "code": "600359",
+      "industry": "农林牧渔",
+      "pct": 10.05,
+      "board": 1
+    },
+    {
+      "name": "中百集团",
+      "code": "000759",
+      "industry": "商贸零售",
+      "pct": 10.0,
+      "board": 3
+    },
+    {
+      "name": "华康股份",
+      "code": "605077",
+      "industry": "基础化工",
+      "pct": 9.98,
+      "board": 2
+    },
+    {
+      "name": "中基健康",
+      "code": "000972",
+      "industry": "农林牧渔",
+      "pct": 10.08,
+      "board": 1
+    },
+    {
+      "name": "安德利",
+      "code": "605198",
+      "industry": "农林牧渔",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "彤程新材",
+      "code": "603650",
+      "industry": "基础化工",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "鑫科材料",
+      "code": "600255",
+      "industry": "有色金属",
+      "pct": 9.89,
+      "board": 1
+    },
+    {
+      "name": "精华制药",
+      "code": "002349",
+      "industry": "医药生物",
+      "pct": 9.98,
+      "board": 2
+    },
+    {
+      "name": "会稽山",
+      "code": "601579",
+      "industry": "食品饮料",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "大有能源",
+      "code": "600403",
+      "industry": "煤炭",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "海通发展",
+      "code": "603162",
+      "industry": "交通运输",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "汉缆股份",
+      "code": "002498",
+      "industry": "电力设备",
+      "pct": 9.94,
+      "board": 1
+    },
+    {
+      "name": "应流股份",
+      "code": "603308",
+      "industry": "机械设备",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "华正新材",
+      "code": "603186",
+      "industry": "电子",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "友好集团",
+      "code": "600778",
+      "industry": "商贸零售",
+      "pct": 9.93,
+      "board": 1
+    },
+    {
+      "name": "深粮控股",
+      "code": "000019",
+      "industry": "农林牧渔",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "新赛股份",
+      "code": "600540",
+      "industry": "农林牧渔",
+      "pct": 10.08,
+      "board": 1
+    },
+    {
+      "name": "国机精工",
+      "code": "002046",
+      "industry": "机械设备",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "南 京 港",
+      "code": "002040",
+      "industry": "交通运输",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "亚星锚链",
+      "code": "601890",
+      "industry": "国防军工",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "中水渔业",
+      "code": "000798",
+      "industry": "农林牧渔",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "长城电工",
+      "code": "600192",
+      "industry": "电力设备",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "国创高新",
+      "code": "002377",
+      "industry": "石油石化",
+      "pct": 10.14,
+      "board": 1
+    },
+    {
+      "name": "渝三峡Ａ",
+      "code": "000565",
+      "industry": "基础化工",
+      "pct": 9.94,
+      "board": 1
+    },
+    {
+      "name": "湖南天雁",
+      "code": "600698",
+      "industry": "汽车",
+      "pct": 9.97,
+      "board": 1
+    },
+    {
+      "name": "云煤能源",
+      "code": "600792",
+      "industry": "煤炭",
+      "pct": 10.07,
+      "board": 2
+    },
+    {
+      "name": "闽东电力",
+      "code": "000993",
+      "industry": "公用事业",
+      "pct": 9.97,
+      "board": 1
+    },
+    {
+      "name": "招商轮船",
+      "code": "601872",
+      "industry": "交通运输",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "郑州煤电",
+      "code": "600121",
+      "industry": "煤炭",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "新中港",
+      "code": "605162",
+      "industry": "公用事业",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "依顿电子",
+      "code": "603328",
+      "industry": "电子",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "桂林旅游",
+      "code": "000978",
+      "industry": "社会服务",
+      "pct": 9.99,
+      "board": 3
+    },
+    {
+      "name": "黑猫股份",
+      "code": "002068",
+      "industry": "基础化工",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "莱绅通灵",
+      "code": "603900",
+      "industry": "纺织服饰",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "湖南黄金",
+      "code": "002155",
+      "industry": "有色金属",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "远东股份",
+      "code": "600869",
+      "industry": "电力设备",
+      "pct": 10.02,
+      "board": 1
+    }
+  ]
+}
