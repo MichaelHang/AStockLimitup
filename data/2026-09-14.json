@@ -1,0 +1,424 @@
+{
+  "date": "2026-09-14",
+  "weekday": "周一",
+  "caliber": "剔除 ST / 退市 / 北交所 / B 股（申万一级行业口径）",
+  "fengban_rate": "64.7%",
+  "market_summary": "  <strong>大盘概况：</strong>\n  上证指数涨<span class=\"red\">+-0.07%</span>、深证成指涨<span class=\"red\">+-0.64%</span>、创业板指涨<span class=\"red\">+-1.10%</span>、科创50涨<span class=\"red\">+-1.62%</span>。沪深京三市成交额约 <span class=\"green\">1.63 万亿</span>（上证 7793 亿）。全市场涨停 55 只（含 ST / 退市 / 北交所）、跌停 16 只。\n  <span class=\"red\">电子（7只）、汽车（5只）、计算机（5只） 等申万一级行业板块逆势走强</span>；市场连板高度升至 4 板（闽东电力（4板）、中新赛克（3板）、超声电子（3板）、凯盛新能（3板）、正和生态（2板）、通达股份（2板）、中视传媒（2板）、双星新材（2板）、众泰汽车（2板）、三力制药（2板）、澳弘电子（2板））。",
+  "removed_note": "🚫 <strong>已剔除 0 只 ST / 退市 / 北交所 / B 股：</strong>。全市场涨停约 55 只（含 ST / 退市 / 北交所），跌停 16 只；下方清单为剔除后涨停股（共 55 只，按申万一级行业口径）。",
+  "validation": {
+    "em_raw": 55,
+    "em_clean": 55,
+    "ths_num": 55,
+    "ths_history": 85,
+    "ths_total": 55,
+    "ths_cover": 44,
+    "ths_cover_pct": 80,
+    "common": 44,
+    "only_em": [
+      "000962",
+      "002232",
+      "002560",
+      "002579",
+      "002897",
+      "002976",
+      "600172",
+      "600697",
+      "603626",
+      "605058",
+      "605069"
+    ],
+    "only_ths": [],
+    "consistent": true,
+    "sources": [
+      "东财 getTopicZTPool",
+      "同花顺 limit_up_pool"
+    ]
+  },
+  "stocks": [
+    {
+      "name": "山子高科",
+      "code": "000981",
+      "industry": "汽车",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "天融信",
+      "code": "002212",
+      "industry": "计算机",
+      "pct": 9.96,
+      "board": 1
+    },
+    {
+      "name": "中新赛克",
+      "code": "002912",
+      "industry": "计算机",
+      "pct": 10.0,
+      "board": 3
+    },
+    {
+      "name": "正和生态",
+      "code": "605069",
+      "industry": "环保",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "博汇科技",
+      "code": "688004",
+      "industry": "计算机",
+      "pct": 19.98,
+      "board": 1
+    },
+    {
+      "name": "国安股份",
+      "code": "000839",
+      "industry": "通信",
+      "pct": 9.89,
+      "board": 1
+    },
+    {
+      "name": "永信至诚",
+      "code": "688244",
+      "industry": "计算机",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "桂林旅游",
+      "code": "000978",
+      "industry": "社会服务",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "通达股份",
+      "code": "002560",
+      "industry": "电力设备",
+      "pct": 10.03,
+      "board": 2
+    },
+    {
+      "name": "中视传媒",
+      "code": "600088",
+      "industry": "传媒",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "闽东电力",
+      "code": "000993",
+      "industry": "公用事业",
+      "pct": 10.01,
+      "board": 4
+    },
+    {
+      "name": "双星新材",
+      "code": "002585",
+      "industry": "基础化工",
+      "pct": 10.04,
+      "board": 2
+    },
+    {
+      "name": "启明信息",
+      "code": "002232",
+      "industry": "计算机",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "欧亚集团",
+      "code": "600697",
+      "industry": "商贸零售",
+      "pct": 10.05,
+      "board": 1
+    },
+    {
+      "name": "春光科技",
+      "code": "603657",
+      "industry": "家用电器",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "海马汽车",
+      "code": "000572",
+      "industry": "汽车",
+      "pct": 9.9,
+      "board": 1
+    },
+    {
+      "name": "豫能控股",
+      "code": "001896",
+      "industry": "公用事业",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "安凯客车",
+      "code": "000868",
+      "industry": "汽车",
+      "pct": 10.14,
+      "board": 1
+    },
+    {
+      "name": "超声电子",
+      "code": "000823",
+      "industry": "电子",
+      "pct": 10.01,
+      "board": 3
+    },
+    {
+      "name": "众泰汽车",
+      "code": "000980",
+      "industry": "汽车",
+      "pct": 9.91,
+      "board": 2
+    },
+    {
+      "name": "宏盛股份",
+      "code": "603090",
+      "industry": "机械设备",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "三人行",
+      "code": "605168",
+      "industry": "传媒",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "科森科技",
+      "code": "603626",
+      "industry": "电子",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "三力制药",
+      "code": "603439",
+      "industry": "医药生物",
+      "pct": 9.97,
+      "board": 2
+    },
+    {
+      "name": "天通股份",
+      "code": "600330",
+      "industry": "基础化工",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "康达新材",
+      "code": "002669",
+      "industry": "基础化工",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "高凯技术",
+      "code": "688835",
+      "industry": "机械设备",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "凯盛新能",
+      "code": "600876",
+      "industry": "建筑材料",
+      "pct": 10.0,
+      "board": 3
+    },
+    {
+      "name": "瑞玛精密",
+      "code": "002976",
+      "industry": "汽车",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "莲花控股",
+      "code": "600186",
+      "industry": "食品饮料",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "恒盛能源",
+      "code": "605580",
+      "industry": "公用事业",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "柘中股份",
+      "code": "002346",
+      "industry": "电力设备",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "黄河旋风",
+      "code": "600172",
+      "industry": "机械设备",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "贤丰控股",
+      "code": "002141",
+      "industry": "电子",
+      "pct": 9.94,
+      "board": 1
+    },
+    {
+      "name": "津药药业",
+      "code": "600488",
+      "industry": "医药生物",
+      "pct": 10.09,
+      "board": 1
+    },
+    {
+      "name": "满坤科技",
+      "code": "301132",
+      "industry": "电子",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "中京电子",
+      "code": "002579",
+      "industry": "电子",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "万邦医药",
+      "code": "301520",
+      "industry": "医药生物",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "澳洋健康",
+      "code": "002172",
+      "industry": "医药生物",
+      "pct": 10.09,
+      "board": 1
+    },
+    {
+      "name": "科翔股份",
+      "code": "300903",
+      "industry": "电子",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "近岸蛋白",
+      "code": "688137",
+      "industry": "医药生物",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "蒙娜丽莎",
+      "code": "002918",
+      "industry": "轻工制造",
+      "pct": 9.96,
+      "board": 1
+    },
+    {
+      "name": "中旗新材",
+      "code": "001212",
+      "industry": "建筑材料",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "马矿股份",
+      "code": "601123",
+      "industry": "冶钢原料",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "爱普股份",
+      "code": "603020",
+      "industry": "基础化工",
+      "pct": 10.05,
+      "board": 1
+    },
+    {
+      "name": "三星电气",
+      "code": "601567",
+      "industry": "电力设备",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "陕西金叶",
+      "code": "000812",
+      "industry": "轻工制造",
+      "pct": 10.11,
+      "board": 1
+    },
+    {
+      "name": "返利科技",
+      "code": "600228",
+      "industry": "传媒",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "澳弘电子",
+      "code": "605058",
+      "industry": "电子",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "键邦股份",
+      "code": "603285",
+      "industry": "基础化工",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "东方钽业",
+      "code": "000962",
+      "industry": "有色金属",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "福建水泥",
+      "code": "600802",
+      "industry": "建筑材料",
+      "pct": 9.94,
+      "board": 1
+    },
+    {
+      "name": "华之杰",
+      "code": "603400",
+      "industry": "机械设备",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "国芳集团",
+      "code": "601086",
+      "industry": "商贸零售",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "意华股份",
+      "code": "002897",
+      "industry": "通信",
+      "pct": 10.0,
+      "board": 1
+    }
+  ]
+}
