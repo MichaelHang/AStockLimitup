@@ -1,0 +1,258 @@
+{
+  "date": "2026-09-28",
+  "weekday": "周一",
+  "caliber": "剔除 ST / 退市 / 北交所 / B 股（申万一级行业口径）",
+  "fengban_rate": "75.0%",
+  "market_summary": "  <strong>大盘概况：</strong>\n  上证指数涨<span class=\"red\">+-1.67%</span>、深证成指涨<span class=\"red\">+-3.44%</span>、创业板指涨<span class=\"red\">+-4.53%</span>、科创50涨<span class=\"red\">+-4.06%</span>。沪深京三市成交额约 <span class=\"green\">1.70 万亿</span>（上证 8045 亿）。全市场涨停 33 只（含 ST / 退市 / 北交所）、跌停 56 只。\n  <span class=\"red\">汽车（4只）、计算机（4只）、电力设备（3只） 等申万一级行业板块逆势走强</span>；市场连板高度升至 5 板（新华传媒（5板）、雪龙集团（3板）、金辰股份（3板）、福建水泥（3板）、大业股份（2板）、襄阳轴承（2板）、吉鑫科技（2板））。",
+  "removed_note": "🚫 <strong>已剔除 0 只 ST / 退市 / 北交所 / B 股：</strong>。全市场涨停约 33 只（含 ST / 退市 / 北交所），跌停 56 只；下方清单为剔除后涨停股（共 33 只，按申万一级行业口径）。",
+  "validation": {
+    "em_raw": 33,
+    "em_clean": 33,
+    "ths_num": 33,
+    "ths_history": 44,
+    "ths_total": 33,
+    "ths_cover": 33,
+    "ths_cover_pct": 100,
+    "common": 33,
+    "only_em": [],
+    "only_ths": [],
+    "consistent": true,
+    "sources": [
+      "东财 getTopicZTPool",
+      "同花顺 limit_up_pool"
+    ]
+  },
+  "stocks": [
+    {
+      "name": "博纳影业",
+      "code": "001330",
+      "industry": "传媒",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "新华传媒",
+      "code": "600825",
+      "industry": "传媒",
+      "pct": 10.04,
+      "board": 5
+    },
+    {
+      "name": "雪龙集团",
+      "code": "603949",
+      "industry": "汽车",
+      "pct": 10.0,
+      "board": 3
+    },
+    {
+      "name": "金辰股份",
+      "code": "603396",
+      "industry": "电力设备",
+      "pct": 9.99,
+      "board": 3
+    },
+    {
+      "name": "中新赛克",
+      "code": "002912",
+      "industry": "计算机",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "会稽山",
+      "code": "601579",
+      "industry": "食品饮料",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "大业股份",
+      "code": "603278",
+      "industry": "机械设备",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "襄阳轴承",
+      "code": "000678",
+      "industry": "汽车",
+      "pct": 10.02,
+      "board": 2
+    },
+    {
+      "name": "跨境通",
+      "code": "002640",
+      "industry": "商贸零售",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "国新健康",
+      "code": "000503",
+      "industry": "计算机",
+      "pct": 10.06,
+      "board": 1
+    },
+    {
+      "name": "九阳股份",
+      "code": "002242",
+      "industry": "家用电器",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "丽珠集团",
+      "code": "000513",
+      "industry": "医药生物",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "五方光电",
+      "code": "002962",
+      "industry": "电子",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "福建水泥",
+      "code": "600802",
+      "industry": "建筑材料",
+      "pct": 9.97,
+      "board": 3
+    },
+    {
+      "name": "泰尔股份",
+      "code": "002347",
+      "industry": "机械设备",
+      "pct": 9.93,
+      "board": 1
+    },
+    {
+      "name": "深物业A",
+      "code": "000011",
+      "industry": "房地产",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "浙江新能",
+      "code": "600032",
+      "industry": "公用事业",
+      "pct": 10.07,
+      "board": 1
+    },
+    {
+      "name": "众泰汽车",
+      "code": "000980",
+      "industry": "汽车",
+      "pct": 9.8,
+      "board": 1
+    },
+    {
+      "name": "深华发Ａ",
+      "code": "000020",
+      "industry": "电子",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "新筑股份",
+      "code": "002480",
+      "industry": "公用事业",
+      "pct": 9.92,
+      "board": 1
+    },
+    {
+      "name": "时代万恒",
+      "code": "600241",
+      "industry": "电力设备",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "江淮汽车",
+      "code": "600418",
+      "industry": "汽车",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "东瑞股份",
+      "code": "001201",
+      "industry": "农林牧渔",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "巨力索具",
+      "code": "002342",
+      "industry": "机械设备",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "永信至诚",
+      "code": "688244",
+      "industry": "计算机",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "启明信息",
+      "code": "002232",
+      "industry": "计算机",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "津药药业",
+      "code": "600488",
+      "industry": "医药生物",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "道道全",
+      "code": "002852",
+      "industry": "农林牧渔",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "善水科技",
+      "code": "301190",
+      "industry": "基础化工",
+      "pct": 20.01,
+      "board": 1
+    },
+    {
+      "name": "吉鑫科技",
+      "code": "601218",
+      "industry": "电力设备",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "宏柏新材",
+      "code": "605366",
+      "industry": "基础化工",
+      "pct": 9.98,
+      "board": 1
+    },
+    {
+      "name": "醋化股份",
+      "code": "603968",
+      "industry": "基础化工",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "通达创智",
+      "code": "001368",
+      "industry": "轻工制造",
+      "pct": 10.0,
+      "board": 1
+    }
+  ]
+}
