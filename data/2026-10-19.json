@@ -1,0 +1,349 @@
+{
+  "date": "2026-10-19",
+  "weekday": "周一",
+  "caliber": "剔除 ST / 退市 / 北交所 / B 股（申万一级行业口径）",
+  "fengban_rate": "69.7%",
+  "market_summary": "  <strong>大盘概况：</strong>\n  上证指数涨<span class=\"red\">+0.39%</span>、深证成指涨<span class=\"red\">+0.13%</span>、创业板指涨<span class=\"red\">+-0.94%</span>、科创50涨<span class=\"red\">+-2.17%</span>。沪深京三市成交额约 <span class=\"green\">1.44 万亿</span>（上证 6870 亿）。全市场涨停 46 只（含 ST / 退市 / 北交所）、跌停 22 只。\n  <span class=\"red\">汽车（11只）、基础化工（6只）、计算机（5只） 等申万一级行业板块逆势走强</span>；市场连板高度升至 3 板（吉大正元（3板）、东方嘉盛（3板）、海洋王（2板）、长春一东（2板）、京城股份（2板）、保隆科技（2板）、东安动力（2板）、文灿股份（2板）、甘化科工（2板）、万丰奥威（2板）、大业股份（2板））。",
+  "removed_note": "🚫 <strong>已剔除 0 只 ST / 退市 / 北交所 / B 股：</strong>。全市场涨停约 46 只（含 ST / 退市 / 北交所），跌停 22 只；下方清单为剔除后涨停股（共 46 只，按申万一级行业口径）。",
+  "validation": {
+    "em_raw": 46,
+    "em_clean": 46,
+    "ths_num": 46,
+    "ths_history": 66,
+    "ths_total": 46,
+    "ths_cover": 46,
+    "ths_cover_pct": 100,
+    "common": 46,
+    "only_em": [],
+    "only_ths": [],
+    "consistent": true,
+    "sources": [
+      "东财 getTopicZTPool",
+      "同花顺 limit_up_pool"
+    ]
+  },
+  "stocks": [
+    {
+      "name": "海洋王",
+      "code": "002724",
+      "industry": "家用电器",
+      "pct": 10.07,
+      "board": 2
+    },
+    {
+      "name": "润建股份",
+      "code": "002929",
+      "industry": "通信",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "吉大正元",
+      "code": "003029",
+      "industry": "计算机",
+      "pct": 10.0,
+      "board": 3
+    },
+    {
+      "name": "长春一东",
+      "code": "600148",
+      "industry": "汽车",
+      "pct": 10.01,
+      "board": 2
+    },
+    {
+      "name": "海正药业",
+      "code": "600267",
+      "industry": "医药生物",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "京城股份",
+      "code": "600860",
+      "industry": "机械设备",
+      "pct": 9.99,
+      "board": 2
+    },
+    {
+      "name": "保隆科技",
+      "code": "603197",
+      "industry": "汽车",
+      "pct": 10.0,
+      "board": 2
+    },
+    {
+      "name": "东安动力",
+      "code": "600178",
+      "industry": "汽车",
+      "pct": 10.05,
+      "board": 2
+    },
+    {
+      "name": "文灿股份",
+      "code": "603348",
+      "industry": "汽车",
+      "pct": 9.99,
+      "board": 2
+    },
+    {
+      "name": "甘化科工",
+      "code": "000576",
+      "industry": "国防军工",
+      "pct": 10.03,
+      "board": 2
+    },
+    {
+      "name": "万丰奥威",
+      "code": "002085",
+      "industry": "汽车",
+      "pct": 9.99,
+      "board": 2
+    },
+    {
+      "name": "金达威",
+      "code": "002626",
+      "industry": "食品饮料",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "太极股份",
+      "code": "002368",
+      "industry": "计算机",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "慕思股份",
+      "code": "001323",
+      "industry": "轻工制造",
+      "pct": 10.02,
+      "board": 1
+    },
+    {
+      "name": "亚邦股份",
+      "code": "603188",
+      "industry": "基础化工",
+      "pct": 10.1,
+      "board": 1
+    },
+    {
+      "name": "江苏新能",
+      "code": "603693",
+      "industry": "公用事业",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "浙江新能",
+      "code": "600032",
+      "industry": "公用事业",
+      "pct": 10.03,
+      "board": 1
+    },
+    {
+      "name": "大普微-UW",
+      "code": "301666",
+      "industry": "计算机",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "金龙汽车",
+      "code": "600686",
+      "industry": "汽车",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "东方嘉盛",
+      "code": "002889",
+      "industry": "交通运输",
+      "pct": 9.99,
+      "board": 3
+    },
+    {
+      "name": "天洋新材",
+      "code": "603330",
+      "industry": "基础化工",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "肯特股份",
+      "code": "301591",
+      "industry": "基础化工",
+      "pct": 19.99,
+      "board": 1
+    },
+    {
+      "name": "沃特股份",
+      "code": "002886",
+      "industry": "基础化工",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "亨通光电",
+      "code": "600487",
+      "industry": "通信",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "晶科科技",
+      "code": "601778",
+      "industry": "公用事业",
+      "pct": 10.15,
+      "board": 1
+    },
+    {
+      "name": "华瓷股份",
+      "code": "001216",
+      "industry": "轻工制造",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "达仁堂",
+      "code": "600329",
+      "industry": "医药生物",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "四会富仕",
+      "code": "300852",
+      "industry": "电子",
+      "pct": 19.99,
+      "board": 1
+    },
+    {
+      "name": "协和电子",
+      "code": "605258",
+      "industry": "电子",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "澳弘电子",
+      "code": "605058",
+      "industry": "电子",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "福莱新材",
+      "code": "605488",
+      "industry": "基础化工",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "锦鸡股份",
+      "code": "300798",
+      "industry": "基础化工",
+      "pct": 19.95,
+      "board": 1
+    },
+    {
+      "name": "科森科技",
+      "code": "603626",
+      "industry": "电子",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "能科科技",
+      "code": "603859",
+      "industry": "计算机",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "宁波东力",
+      "code": "002164",
+      "industry": "机械设备",
+      "pct": 10.04,
+      "board": 1
+    },
+    {
+      "name": "大业股份",
+      "code": "603278",
+      "industry": "机械设备",
+      "pct": 9.99,
+      "board": 2
+    },
+    {
+      "name": "正强股份",
+      "code": "301119",
+      "industry": "汽车",
+      "pct": 20.01,
+      "board": 1
+    },
+    {
+      "name": "新坐标",
+      "code": "603040",
+      "industry": "汽车",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "凡拓数创",
+      "code": "301313",
+      "industry": "传媒",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "浙江荣泰",
+      "code": "603119",
+      "industry": "汽车",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "日盈电子",
+      "code": "603286",
+      "industry": "汽车",
+      "pct": 10.01,
+      "board": 1
+    },
+    {
+      "name": "兆威机电",
+      "code": "003021",
+      "industry": "电力设备",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "天普股份",
+      "code": "605255",
+      "industry": "汽车",
+      "pct": 10.0,
+      "board": 1
+    },
+    {
+      "name": "索辰科技",
+      "code": "688507",
+      "industry": "计算机",
+      "pct": 20.0,
+      "board": 1
+    },
+    {
+      "name": "双枪科技",
+      "code": "001211",
+      "industry": "轻工制造",
+      "pct": 9.99,
+      "board": 1
+    },
+    {
+      "name": "慈文传媒",
+      "code": "002343",
+      "industry": "传媒",
+      "pct": 9.97,
+      "board": 1
+    }
+  ]
+}
